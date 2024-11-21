@@ -16,11 +16,11 @@ const num2 = 5;
 const num3 = 6;
 console.log(num1 + num2 * num3);
 
-/*
-let contador = 1;
-contador++;
+
+let cont = 1;
+cont++;
 console.log(contador);
-*/
+
 
 /* operadores de atribuição */
 let contador = 0;
