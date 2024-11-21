@@ -36,3 +36,25 @@ let imc = peso / (altura * altura);
 let anoNascimento = 2024 - idade1;
 
 console.log(nome3, sobrenome, 'tem', idade1, 'anos pesa', peso, 'kg tem', altura, 'de altura e seu IMC é de', imc, 'seu ano de nascimento é', anoNascimento)
+
+/* exercício de variável */
+const nomee = 'Marcelo';
+const sobreNome = 'Pereira';
+let n1 = 5;
+let n2 = 8;
+let soma = n1 + n2 / 2;
+
+const notamedia = 60;
+
+if(soma >=(n1 + n2)){
+    console.log(nomee, sobreNome, 'foi aprovado na faculdade!');
+}else{
+    console.log(nomee, sobreNome, 'Não foi aprovado na faculdade!');
+}
+
+let a = 5;
+let b = a;
+console.log(a, b);
+
+b = 10;
+console.log(a, b);
