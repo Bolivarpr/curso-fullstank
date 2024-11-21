@@ -58,3 +58,18 @@ console.log(a, b);
 
 b = 10;
 console.log(a, b);
+/* novo exercício */
+let varA = 'A';
+let varB = 'B';
+let varC = 'C';
+
+/* modo antigo 
+const temp = varA;
+varA = varB;
+varB = varC;
+varC = temp; */
+
+/* modo novo*/
+[varA, varB, varC] = [varB, varC, varA]
+
+console.log(varA, varB, varC);
