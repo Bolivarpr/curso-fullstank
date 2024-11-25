@@ -19,7 +19,7 @@ console.log(num1 + num2 * num3);
 
 let cont = 1;
 cont++;
-console.log(contador);
+console.log(cont);
 
 
 /* operadores de atribuição */
@@ -27,12 +27,10 @@ let contador = 0;
 contador += 2;
 contador += 2;
 contador += 2;
-contador += 2;
 console.log(contador)
 
 
-/* converter uma string em número*/
-
+/* converter uma string em número
 parseInt('5'); // inteiro 
 parseFloat('5.2'); // decimais
-Number('Luiz')//number
+Number('Luiz')// number */

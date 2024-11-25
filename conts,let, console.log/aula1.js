@@ -25,6 +25,20 @@ const adicao = 8;
 console.log(typeof nome2)
 console.log(typeof adicao)
 
+/* usando dado premitivo   */
+let nome4 = 'Marcelo';
+let sobreNome4 = 'Pereira';
+
+console.log(`meu nome é ${nome4} ${sobreNome4}`)
+
+/* buscando um indice */
+let umanum = '123456';
+console.log(umanum[5]);
+
+/* alterar algo usando replace */
+let n = "bora ser campeão";
+console.log(n.replace(/bora ser/, 'seremos'))
+
 /*exercício de variável*/
 
 const nome3 = 'Luiz Otávio';
@@ -58,6 +72,7 @@ console.log(a, b);
 
 b = 10;
 console.log(a, b);
+
 /* novo exercício */
 let varA = 'A';
 let varB = 'B';
@@ -73,3 +88,8 @@ varC = temp; */
 [varA, varB, varC] = [varB, varC, varA]
 
 console.log(varA, varB, varC);
+
+/* funçãoes para maiuscula e minuscula 
+toUpperCase() -> deixa a palavra em letra maiuscula
+toLowerCase() -> deixa em letra minuscula
+*/

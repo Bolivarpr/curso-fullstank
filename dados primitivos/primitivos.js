@@ -19,7 +19,7 @@ console.log(a, b);
 b = 10;
 console.log(a, b);
 
-/* ex null e false/true */
+/* ex null e false/true 
 
 const nullo = null;
 const aprovado = false;
@@ -28,6 +28,7 @@ const aprovado1 = true;
 console.log('essa prova recebe', nulo)
 console.log('5 é maior que 8',aprovado)
 console.log('3 é menor que 4', aprovado1)
+*/
 
 /*exercício de dados primitivos*/
 const nulo = null;
