@@ -27,19 +27,3 @@ ul {
     text-align: center;
     list-style-type: none;
 }
- #container {
-    padding: 30px;
-    border: solid 2px red;
-    height: 180px;
-    width: 196px;
-    justify-items: center;
-    text-align: center;
-    margin: 0 auto;
-    background-image: url(./image.png);
-    color: white;
- }
-
- label, input {
-    margin: 5px;
-    padding: 3px;
-  }
