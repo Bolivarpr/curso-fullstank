@@ -5,11 +5,12 @@
 
  Math.round() // retorna um número mais próximo ex: 9.49 fica 9 e 9.51 fica 10
 
- Math.max() // para achar um número maior dentro dos parentes
+ Math.max() // para achar um número maior
 
  Math.min() // para achar o menor número
 
  Math.random() // para gerar número aleatório
 
- console.log(Math.pow(2, 10));
- console.log(2 ** 10);
+ variável.toFixed() // para informar casas decimais e nos(2) vai a quantidades
+
+ Number.isInteger() //verificar se um determinado valor numérico é um número inteiro
