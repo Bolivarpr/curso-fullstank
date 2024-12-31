@@ -1,9 +1,13 @@
-/*const h1 = document.querySelector('.container h1');
+const h1 = document.querySelector('.container h1');
 const data = new Date();
 h1.innerHTML = data.toString();
 
 function getDiaSemanaTexto(diaSemana) {
-    let diaSemanaTexto;
+   
+    const diasSemana = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabádo'];
+   return diasSemana[diaSemana];
+
+    /* let diaSemanaTexto;
 
     switch (diaSemana) {
         case 0:
@@ -29,11 +33,16 @@ function getDiaSemanaTexto(diaSemana) {
         break;
         default:
              diaSemanaTexto = '';
-    }
+    } */
 }
 
 function getNomeMes(numeroMes) {
-    let nomeMes;
+   
+   const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho',
+    'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+   return meses[numeroMes];
+   
+    /* let nomeMes;
 
 switch (numeroMes) {
     case 0:
@@ -86,7 +95,7 @@ switch (numeroMes) {
     break;
     default:
         nomeMes = '';
-    }
+    }*/
 }
 
 function zeroAEsquerda (num) {
@@ -107,13 +116,13 @@ function criaData(data) {
     
 }
 
-h1.innerHTML = criaData(data);*/
+h1.innerHTML = criaData(data);
 
-const h1 = document.querySelector('.container h1');
-const data = new Date();
-const opcoes = {
-    dateStyle: 'full', // Formatação completa da data
-    timeStyle: 'short' // Formatação curta do horário
-};
+//const h1 = document.querySelector('.container h1');
+//const data = new Date();
+//const opcoes = {
+  //  dateStyle: 'full', // Formatação completa da data
+//  timeStyle: 'short' // Formatação curta do horário
+//};
 
-h1.innerHTML = data.toLocaleString('pt-BR', opcoes);
+//h1.innerHTML = data.toLocaleString('pt-BR', opcoes);
