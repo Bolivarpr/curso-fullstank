@@ -1,19 +1,26 @@
-const elementos = [
-    {tag: 'p', texto: 'essas são as frases:'},
-    {tag: 'div', texto: 'frase 2'},
-    {tag: 'footer', texto: 'frase 3'},
-    {tag: 'section', texto: 'frase 4'},
-];
+//const frutas = [
+//    'pera',
+//    'uva',
+//    'maça'
+//];
 
-const container = document.querySelector('.container');
-const div = document.createElement('div');
+// for (let i = 0; i < frutas.length; i++) {
+//    console.log(frutas[i]);
+// }
 
-for (let i = 0; i < elementos.length; i ++) {
-    let {tag, texto} = elementos[i];
-    let tagCriada = document.createElement(tag);
-    //tagCriada.innerText = texto;
-    tagCriada.innerHTML = texto;
-    div.appendChild(tagCriada);
-}
+//  for (let i in frutas) {
+//   console.log(frutas[i]);  
+// }
 
-container.appendChild(div);
+// for in -> lê os índices ou chaves do objeto
+
+const pessoa = {
+   nome: 'Marcelo',
+   sobrenome: 'Pereira',
+   idade: 31 
+};
+
+for (let i in pessoa) {
+    console.log(pessoa[i])
+};
+
