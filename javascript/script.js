@@ -1,26 +1,13 @@
-//const frutas = [
-//    'pera',
-//    'uva',
-//    'maça'
-//];
+const nome = 'Luiz Otávio';
 
-// for (let i = 0; i < frutas.length; i++) {
-//    console.log(frutas[i]);
-// }
-
-//  for (let i in frutas) {
-//   console.log(frutas[i]);  
-// }
-
-// for in -> lê os índices ou chaves do objeto
-
-const pessoa = {
-   nome: 'Marcelo',
-   sobrenome: 'Pereira',
-   idade: 31 
+/*for (let i = 0; i < nome.length; i++) {
+    console.log(nome[i])
 };
+*/
 
-for (let i in pessoa) {
-    console.log(pessoa[i])
+//for of -> retorna o valor em si (iteráveis, array ou strings)
+
+for (let valor of nome) {
+    console.log(valor);
 };
 
