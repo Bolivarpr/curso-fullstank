@@ -1,13 +1,7 @@
-const numeros = [1, 2, 3, 4, 5, 6];
+//const max = (x, y) => x > y ? x : y;
 
-for (let i of numeros) {
-   if (i === 2) {
-   continue; // pula para o próximo número
-   }
+//console.log(max(10,2));
 
-   if(i === 4) {
-      break; // faz parar numa ação que neste caso é o número 4
-   }
+const n1 = (a, b) => a > b ? a : b ;
 
-   console.log(i);
-}
+console.log(n1(10,2));
