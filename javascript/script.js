@@ -1,30 +1,13 @@
-// while e do while
- /* let i = 1;
+const numeros = [1, 2, 3, 4, 5, 6];
 
- while (i <= 8) {
-    console.log(i);
-    i++;
- }
-*/ 
+for (let i of numeros) {
+   if (i === 2) {
+   continue; // pula para o próximo número
+   }
 
+   if(i === 4) {
+      break; // faz parar numa ação que neste caso é o número 4
+   }
 
-function random(min, max) {
-    const r = Math.random() * (max - min) + min;
-    return Math.floor(r);
+   console.log(i);
 }
-
-const min = 1;
-const max = 20;
-let rand =  10;
-
-while (rand !== 10); {
- rand = random(min, max);
- console.log(rand);
-}
-
-console.log('#####');
-
- do {
-    rand = random(min, max);
-    console.log(rand);
- } while(rand !== 10);
