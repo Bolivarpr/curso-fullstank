@@ -12,7 +12,7 @@
 }
 
 body {
-    background: rgb(97, 95, 95);
+   background: rgb(97, 95, 95);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -22,8 +22,9 @@ h1 {
     padding: 10px;
 }
 
-h3 {
+p {
     color: var(--primary-color);
+    text-align: center;
 }
 
 .dados {
@@ -35,45 +36,17 @@ h3 {
 .container {
     max-width: 640px;
     margin: 50px auto;
-    background: rgb(95, 54, 54);
+    background: rgb(44, 15, 15);
     padding: 20px;
     border-radius: 10px;
 }
 
-.item {
-    flex: 1; /* Garante que cada item ocupe o mesmo espaço */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
-  }
-/* Esterilização do formulário*/
-form input, form label, form button{
-
-    display: block;
-    width: 50%;
-    text-align: center;
-    margin-bottom: 10px;
+.relogio {
+    font-size: 2em;
 }
 
-form input {
-    font-size: 24px;
-    height: 30px;
-    padding: 0 20px;
+.pausado {
+    color: red;
 }
 
-form input:focus{
-    outline: 1px solid var(--ter-color);
-}
-
-form button {
-    border: none;
-    background: var(--ter-color);
-    font-size: 18px;
-    font-weight: 700;
-    height: 30px;
-    cursor: pointer;
-    margin-top: 30px;
-}
-
-form button:hover {
-    background: var(--primary-color-darker);
-}
 
